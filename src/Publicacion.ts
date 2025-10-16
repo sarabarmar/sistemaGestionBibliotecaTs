@@ -91,11 +91,15 @@ class Lector implements Usuario {
 
 }
 
-const libro1 = new Libro("Los mendigos de Dios", "Mario Mendoza", 2024, 350, "Thriller");
-const libro2 = new Libro("Virgenes y Toxicomanos", "Mario Mendoza", 2025, 269, "Ficción y temas afines");
+const libro1 = new Libro("Los mendigos de Dios", "Mario Mendoza", 2024, 350, "Thriller", true);
+const libro2 = new Libro("Virgenes y Toxicomanos", "Mario Mendoza", 2025, 269, "Ficción y temas afines", true);
 
 
-const revista1 = new Revista("El impacto de la inteligencia artificial en la educación", "García, J. R", 2020, 45, "mayo");
+const revista1 = new Revista("El impacto de la inteligencia artificial en la educación", "García, J. R", 2020, 45, "mayo", true);
+console.log(libro1);
+console.log(libro2);
+console.log(revista1);
+
 
 const lector1 = new Lector("Sara", 1);
 const lector2 = new Lector("Laura", 2);
